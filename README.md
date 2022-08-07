@@ -10,12 +10,11 @@
 ### Dataset
 - The dataset used in projects (NSFW vs SFW) is open dataset on Kaggle, and is available via <https://www.kaggle.com/datasets/omeret/not-safe-for-work>
 - There were many incorrect labelling on raw dataset, after relabeling by hand, the datasets were rearranged as below:
-Data Mode | Class 
-          |:----------:
-:---------:| NSFW | SFW
-:----------------------:
-Training Data |2,155pcs|2,155pcs
-Validation Data| 909pcs| 909pcs
+
+| Data Mode \ Classes |NSFW |SFW| 
+|:--------:|:------:|:------:|
+|Training Data |2,155pcs | 2,155pcs|
+|Validation Data| 909pcs |  909pcs|
 
 
 ### Methodology and Results
@@ -29,8 +28,8 @@ Validation Data| 909pcs| 909pcs
 
 - EfficientNet has a much higher  accuracy among all models (96.2%), with the lowest type II error 1.71%.
 
-![alt 文字](https://drive.google.com/file/d/1QbQYlXZxM8MzlX6qcm5yFTL7imoww0eL/view?usp=sharing)
-![alt 文字](https://drive.google.com/file/d/1pkiIKA-ggPZejQ1Y0wizK-kH6iwn3q66/view?usp=sharing)
+![alt 文字](https://github.com/HuaJung/NSFW/blob/main/img%20for%20README/model%20comparison.png)
+![alt 文字](https://github.com/HuaJung/NSFW/blob/main/img%20for%20README/confusion%20matrix.png)
 
 ### Discussion and Conclusion
 - EfficientNet-B7 is our best model with higher accuracy and the lowest type II error.
